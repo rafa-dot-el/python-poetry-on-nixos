@@ -1,0 +1,3 @@
+#+title: Python with Poetry on Nix
+
+Example of using python and poetry in a nix environment.
