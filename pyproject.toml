@@ -11,8 +11,14 @@ python = "^3.10"
 numpy = "^1.24.2"
 pandas = "^1.5.3"
 pytest = "^7.2.2"
+pandas-ta = "^0.3.14b0"
+click = "^8.1.3"
+loguru = "^0.6.0"
 
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+example-nix-poetry = 'nix_poetry_example.cli:hello'

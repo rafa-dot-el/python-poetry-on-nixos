@@ -10,4 +10,4 @@ class TestExampleNixTest(TestCase):
 
             self.assertTrue(True)
         except Exception as e:
-            self.assertEqual(e, "", "Expected to load library but got " + e)
+            self.assertEqual(str(e), "", "Expected to load library but got " + str(e))
